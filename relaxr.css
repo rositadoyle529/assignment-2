@@ -1,0 +1,185 @@
+/*
+Relaxr Landing Page: Part 1
+==================
+
+We'll be working on this site for the next three classes, just a heads up.
+
+For today, we'll be making a simplified version of the site which uses only one column. Your job is to build out the CSS - using the information below - for the page!
+
+---
+
+benefits background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+"Relaxr" - Extra bold, 24px
+"Get piece of mind with a single tap" - Semibold, 24px
+
+"Get it Now" - Extra bold, 14px. 5px border radius
+
+"Benefits" - Semibold, 20px
+
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf
+• Does all your work for you with our revolutionary AI technology" - Light, 13px
+
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working, and my boss keeps thanking me for crushing it at work.”" - Light Italic, 18px
+"- Amanda, Intuit " - semibold, 18px
+
+"Sign Up Now!" - extra bold, 12px, 5px border radius
+
+Relaxr - extra bold, 24px
+"Copyright 2015. Relaxr." - 9px, semibold
+*/
+/******************************************
+/* BASE STYLES
+/*******************************************/
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  height:50vh;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Open Sans' , sans-serif, Extrabold;
+  text-align: left;
+  color: white;
+ padding: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Open Sans' , sans-serif;
+  padding: 20px;
+  color: white;
+}
+.signin {
+  margin: 50px;
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  background-color:#f9e42e;
+  font-family: 'Open Sans', sans-serif, Extra bold;
+  font-size: 14px;
+  border-radius:5px;
+}
+
+.signupbox
+{background-color:#f9e42e;
+padding: 12px 0px;
+text-align: center;}
+
+header button {
+  align-content: center;
+}
+
+section {
+  text-align:justify;
+}
+
+section h3 {
+  font-size:20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #033048;
+}
+
+section p {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif, light;
+  text-align: justify;
+  color: #606161;
+}
+h3 {
+  font-family: semibold;
+}
+section p ul {
+  font-size: 13px;
+  margin: 20px;
+  color:#606161;
+}
+
+blockquote {
+  text-align:center;
+  font-family: 'Open-Sans', sans-serif, semibold;
+  font-size: 18px;
+  color: #606161;
+  background-image: url(../images/testimonial_bg.jpg);
+  height:25vh;
+ padding:40px;
+ font-style: italic;
+}
+
+blockquote p {
+  text-align:center;
+  font-family: 'Open-Sans', sans-serif, semibold;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.benefits li {
+  font-family: 'Open Sans', sans-serif, light;
+  color: #606161;
+  font-style: itali;
+}
+
+.signup {
+  padding: 10px 40px 10px 40px;
+  background-color: #033048;
+  font-size: 12px;
+  font-family: 'Open-Sans', sans-serif, Extrabold;
+  border-radius: 5px;
+  color: white;
+  align-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+footer p {
+  color:#f9e42e;
+  font-family: 'Open-Sans', sans-serif, Extrabold;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer h6 {
+  font-size: 9px;
+  font-family: 'Open Sans', sans-serif, semibold;
+  color: white;
+  margin: 10px;
+}
+.social li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+     text-align: center;
+
+}
+.benefits {
+  padding: 50px 25px;
+}
+footer {
+  background-color:#121212;
+  background-size: cover;
+  text-align: center;
+  padding:20px;
+}
+
+
